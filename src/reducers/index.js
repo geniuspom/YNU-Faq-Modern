@@ -12,8 +12,10 @@ import issue from './issue'
 import issuedata from './issuedata'
 import appversions from './appversions'
 
+import faq_categories from './faq_categories'
+
 
 export default combineReducers({
   loginstatus,client,clientselect,calendar,eventselect,booking, transections,
-  transectionsupdatestatus, apphistory, issue, issuedata, appversions,
+  transectionsupdatestatus, apphistory, issue, issuedata, appversions, faq_categories,
 })

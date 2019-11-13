@@ -31,6 +31,8 @@ import Transportation from '../containers/faq/transportation';
 import It from '../containers/faq/it';
 import Food from '../containers/faq/food';
 import My_learning from '../containers/faq/my_learning';
+/*Back-end*/
+import Categories from '../containers/back-end/categories';
 
 export default () => {
 
@@ -56,6 +58,8 @@ export default () => {
           <Route exact path="/it:lang" component={It} />
           <Route exact path="/food:lang" component={Food} />
           <Route exact path="/my_learning:lang" component={My_learning} />
+          /*Back-end*/
+          <Route exact path="/categories" component={Categories} />
         </Switch>
       </section>
       <footer>
